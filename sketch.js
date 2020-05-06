@@ -113,4 +113,10 @@ function draw() {
   fill(247, 236, 151, brightness);
   brightness = brightness + 1;
   ellipse(moon.x, moon.y, moon.r, moon.r);
+  //little stars
+  fill(247, 236, 151, brightness);
+  ellipse(400, 50, 5, 5);
+  ellipse(200, 80, 2, 2);
+  ellipse(350, 120, 2, 2);
+  ellipse(280, 30, 2, 2);
 }
